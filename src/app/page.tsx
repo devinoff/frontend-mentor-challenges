@@ -6,17 +6,17 @@ export default function Home(): ReactElement {
         url: '/challenges/social-links-profile',
         image: '/homepage/social-links-profile.png',
         title: 'Social links profile',
-        description: 'A simple profile page with social media links.'
+        description: 'Minimal profile page with clickable social media links.'
     }, {
         url: '/challenges/blog-preview-card',
         image: '/homepage/blog-preview-card.png',
         title: 'Blog preview card',
-        description: 'A simple preview card for a blog post.'
+        description: 'Compact blog card with image, title, and author details.'
     }, {
-        url: '',
-        image: '',
-        title: 'Challenge 3: Coming Soon',
-        description: 'Another exciting challenge is on its way!'
+        url: '/challenges/faq-accordion',
+        image: '/homepage/faq-accordion.png',
+        title: 'FAQ accordion',
+        description: 'Interactive FAQ section with toggleable answers and smooth transitions.'
     }];
 
     return (<main

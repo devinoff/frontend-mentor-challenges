@@ -19,7 +19,7 @@ export default function ChallengeCard({ url, image, title, description }: Challe
                         src={image}
                         alt={title}
                         fill
-                        className='object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out'
+                        className='object-cover transition-transform duration-300 ease-in-out group-hover:scale-110'
                         sizes='(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw'
                     />
                 ) : (
