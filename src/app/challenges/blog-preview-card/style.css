@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+    --color-dvx-yellow: hsl(47, 88%, 63%);
+    --color-dvx-gray-950: hsl(0, 0%, 7%);
+    --color-dvx-gray-500: hsl(0, 0%, 42%);
+}
