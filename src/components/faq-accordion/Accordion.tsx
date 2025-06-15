@@ -1,7 +1,7 @@
 'use client';
 
 import {useState} from "react";
-import Item, {ItemProps} from "@/components/faq-accordion/Item";
+import Item from "@/components/faq-accordion/Item";
 
 export default function Accordion() {
     const [openItemId, setOpenItemId] = useState<number|null>(null);

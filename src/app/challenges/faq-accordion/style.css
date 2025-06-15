@@ -1,7 +1,0 @@
-@import "tailwindcss";
-
-@theme {
-    --color-dvx-purple-100: hsl(279, 100%, 97%);
-    --color-dvx-purple-600: hsl(281, 81%, 52%);
-    --color-dvx-purple-950: hsl(292, 42%, 14%);
-}

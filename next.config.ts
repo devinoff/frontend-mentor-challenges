@@ -5,7 +5,10 @@ const nextConfig: NextConfig = {
         remotePatterns: [
             new URL('https://placehold.net/**')
         ]
-    }
+    },
+    experimental: {
+        scrollRestoration: true,
+    },
 };
 
 export default nextConfig;

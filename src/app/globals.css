@@ -1,1 +1,35 @@
 @import "tailwindcss";
+
+@theme {
+    /* social links profile */
+    --color-slp-green: hsl(75, 94%, 57%);
+    --color-slp-gray-700: hsl(0, 0%, 20%);
+    --color-slp-gray-800: hsl(0, 0%, 12%);
+    --color-slp-gray-900: hsl(0, 0%, 8%);
+
+    /* blog preview card */
+    --color-bpc-yellow: hsl(47, 88%, 63%);
+    --color-bpc-gray-950: hsl(0, 0%, 7%);
+    --color-bpc-gray-500: hsl(0, 0%, 42%);
+    
+    /* faq accordion */
+    --color-fa-purple-100: hsl(279, 100%, 97%);
+    --color-fa-purple-600: hsl(281, 81%, 52%);
+    --color-fa-purple-950: hsl(292, 42%, 14%);
+
+    /* results summary component */
+    --color-rsc-red: hsl(0, 100%, 67%);
+    --color-rsc-yellow: hsl(39, 100%, 56%);
+    --color-rsc-teal: hsl(166, 100%, 37%);
+    --color-rsc-blue: hsl(234, 85%, 45%);
+
+    --color-rsc-bg-slate-blue: hsl(252, 100%, 67%);
+    --color-rsc-bg-royal-blue: hsl(241, 81%, 54%);
+
+    --color-rsc-circle-violet-blue: hsla(256, 72%, 46%, 1);
+    --color-rsc-circle-persian-blue: hsla(241, 72%, 46%, 0);
+
+    --color-rsc-pale-blue: hsl(221, 100%, 96%);
+    --color-rsc-lavender: hsl(241, 100%, 89%);
+    --color-rsc-dark-gray-blue: hsl(224, 30%, 27%);
+}
