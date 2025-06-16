@@ -32,4 +32,24 @@
     --color-rsc-pale-blue: hsl(221, 100%, 96%);
     --color-rsc-lavender: hsl(241, 100%, 89%);
     --color-rsc-dark-gray-blue: hsl(224, 30%, 27%);
+
+    /* product preview card component */
+    --color-prcc-green-500: hsl(158, 36%, 37%);
+    --color-prcc-green-700: hsl(158, 42%, 18%);
+
+    --color-prcc-black: hsl(212, 21%, 14%);
+    --color-prcc-grey: hsl(228, 12%, 48%);
+    --color-prcc-cream: hsl(30, 38%, 92%);
+
+    --breakpoint-prcc-xxs: 20rem;
+
+    /* interactive rating component */
+    --color-irc-orange: hsl(25, 97%, 53%);
+
+    --color-irc-grey-500: hsl(217, 12%, 63%);
+    --color-irc-grey-900: hsl(213, 19%, 18%);
+    --color-irc-grey-950: hsl(216, 12%, 8%);
+
+    --color-irc-gradient-from: hsl(215, 20%, 16%);
+    --color-irc-gradient-to: hsl(215, 27%, 12%);
 }
