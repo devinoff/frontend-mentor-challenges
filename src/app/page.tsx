@@ -44,10 +44,15 @@ export default function Home(): ReactElement {
     }];
 
     return (
-        <main className={`w-full min-h-dvh flex flex-col justify-center items-center gap-2 bg-neutral-900 text-white py-8 px-8 ${onest.className}`}>
-            <h1 className='text-xl font-semibold'>dvx.lv/portfolio</h1>
-            <h2 className='text-lg font-medium'>All code is available on <a href='https://github.com/devinoff/frontend-mentor-challenges' className='text-blue-300'>GitHub</a></h2>
-            <div className='mt-6 w-full max-w-[1280px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
+        <main className={`w-full min-h-dvh flex flex-col justify-center items-center bg-neutral-900 text-white py-8 px-8 ${onest.className}`}>
+            <h1 className='text-2xl font-semibold'>dvx.lv/portfolio</h1>
+            <h2 className='mt-8 text-xl font-medium'>Real world projects</h2>
+            <div className='mt-2 max-w-[500px]'>
+                <ChallengeCard url='https://skydiscounter.com' image='/homepage/skydiscounter.png' title='skyDiscounter.com' description='Built a dynamic web platform with Next.js, Tailwind CSS, and an Express.js API. Features full internationalization (next-intl) and is heavily SEO-optimized with custom meta tags and structured data.' />
+            </div>
+            <h2 className='mt-8 text-xl font-medium'>Frontend Mentor challenges</h2>
+            <p className='mt-1 text-lg font-medium'>All code is available on <a href='https://github.com/devinoff/frontend-mentor-challenges' className='text-blue-300'>GitHub</a></p>
+            <div className='mt-2 w-full max-w-[1280px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {challenges.map((challenge) => (
                     <ChallengeCard key={challenge.title} url={challenge.url} image={challenge.image} title={challenge.title} description={challenge.description}/>)
                 )}

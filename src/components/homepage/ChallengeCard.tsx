@@ -33,7 +33,7 @@ export default function ChallengeCard({ url, image, title, description }: Challe
                 <h3 className='text-xl font-semibold text-neutral-100 mb-2 truncate'>
                     {title}
                 </h3>
-                <p className='text-neutral-300 line-clamp-3 text-balance flex-grow'>
+                <p className='text-neutral-300 text-balance flex-grow'>
                     {description}
                 </p>
             </div>
