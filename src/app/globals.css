@@ -52,4 +52,12 @@
 
     --color-irc-gradient-from: hsl(215, 20%, 16%);
     --color-irc-gradient-to: hsl(215, 27%, 12%);
+
+    /* intro component with sign-up form */
+    --color-icwsuf-red: hsl(0, 100%, 74%);
+    --color-icwsuf-green: hsl(154, 59%, 51%);
+    --color-icwsuf-blue: hsl(248, 32%, 49%);
+    --color-icwsuf-dark-blue: hsl(249, 10%, 26%);
+    --color-icwsuf-grayish-blue: hsl(246, 25%, 77%);
+
 }
